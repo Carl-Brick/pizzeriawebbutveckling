@@ -1,2 +1,159 @@
 /* Pizzeria Webbutveckling */
 /* CSS */
+h1 {
+  text-align: center;
+  color: rgb(201, 49, 49);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(201, 49, 49);
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(201, 49, 49);
+}
+
+ol {
+  list-style-type: none;
+  text-align: center;
+}
+
+.bild1 {
+  width: inherit;
+  height: inherit;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 80px;
+}
+
+li:hover {
+  background-color: grey;
+}
+
+  {
+  box-sizing: border-box
+}
+
+/* Links */
+a {
+  color: white;
+}
+
+.special_a {
+  color: grey;
+}
+
+.pizzameny {
+  background: white;
+}
+
+/*  */
+.rubrik {
+  color: rgb(201, 49, 49);
+  text-decoration: underline;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Dölj bilderna som standard*/
+.mySlides {
+  display: none;
+}
+
+/* Fram och tillbaka knappar */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Lägg "fram" knappen till höger*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* i hover, lägg till en svart bakgrund med lite genomskådning */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Prickarna */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* Footer */
+.öppettider {
+  background-color: whitesmoke;
+  color: grey;
+  text-align: center;
+}
+
+.faq {
+  background-color: whitesmoke;
+  color: grey;
+  text-align: center;
+}

@@ -1,2 +1,60 @@
 /* Pizzeria Webbutveckling */
 /* Grid */
+@media only screen and (max width: 600px) {
+  header {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+  }
+
+  nav {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }
+
+  section {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+  }
+
+  .öppettiderGrid {
+    grid-column: 1/-1;
+    grid-row: 4/5;
+  }
+
+  .faqGrid {
+    grid-column: 1/-1;
+    grid-row: 4/5;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+header {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+nav {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+section {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.öppettiderGrid {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.faqGrid {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
